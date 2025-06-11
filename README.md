@@ -1,6 +1,6 @@
 # trabalho-rede-neural
 
-## Só há no documento as análises principais, o código também contem: **Sugestão de Decisão de Compra/Espera/Venda das Ações**, **performance do modelo LSTM ao longo dos 3 anos, e não só no conjunto de teste** & PC2.
+## Só há no documento as análises principais, o código também contem: **Sugestão de Decisão de Compra/Espera/Venda das Ações**, **performance do modelo LSTM ao longo dos 3 anos** & PC2.
 
 A previsão de preços de ativos financeiros é uma tarefa desafiadora em aprendizado de máquina devido à sua natureza estocástica, volátil e altamente não linear. Modelos tradicionais, como regressões lineares e ARIMA (Autoregressive Integrated Moving Average), enfrentam dificuldades em capturar padrões de longo prazo. LSTMs, por outro lado, são capazes de modelar dependências temporais de forma mais eficaz, já que conseguem generalizar mais facilmente séries temporais com muitos outliers.
 
