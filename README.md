@@ -1,5 +1,7 @@
 # trabalho-rede-neural
 
+## Só há no documento as análises principais, o código também contem: **Sugestão de Decisão de Compra/Espera/Venda das Ações**, **performance do modelo LSTM ao longo dos 3 anos, e não só no conjunto de teste** & PC2.
+
 A previsão de preços de ativos financeiros é uma tarefa desafiadora em aprendizado de máquina devido à sua natureza estocástica, volátil e altamente não linear. Modelos tradicionais, como regressões lineares e ARIMA (Autoregressive Integrated Moving Average), enfrentam dificuldades em capturar padrões de longo prazo. LSTMs, por outro lado, são capazes de modelar dependências temporais de forma mais eficaz, já que conseguem generalizar mais facilmente séries temporais com muitos outliers.
 
 Nesse contexto, modelos baseados em redes neurais recorrentes, especialmente as LSTMs (Long Short-Term Memory), têm ganhado destaque por sua capacidade de aprender representações temporais complexas e de longo alcance em séries temporais. As LSTMs se diferenciam das redes recorrentes tradicionais (RNNs) por incorporarem mecanismos internos de memória e controle (portas de entrada, esquecimento e saída), permitindo que o modelo retenha ou descarte informações ao longo do tempo com mais eficiência. Isso as torna especialmente adequadas para contextos em que padrões relevantes podem estar distribuídos ao longo de longas sequências temporais, como ocorre frequentemente no comportamento de ativos financeiros.
