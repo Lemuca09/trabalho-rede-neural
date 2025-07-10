@@ -40,10 +40,35 @@ Additionally, Principal Component Analysis (PCA) is applied to analyze the varia
 * matplotlib
 * scikit-learn
 
-Install dependencies with:
+---
+
+## ⚙️ Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/repo-name.git
+cd repo-name
+```
+
+2. Create a virtual environment (optional but recommended):
+
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/macOS
+venv\Scripts\activate     # Windows
+```
+
+3. Install the dependencies:
 
 ```bash
 pip install tensorflow yfinance pandas numpy matplotlib scikit-learn
+```
+
+4. Run the application:
+
+```bash
+python your_script_name.py
 ```
 
 ---
@@ -52,7 +77,7 @@ pip install tensorflow yfinance pandas numpy matplotlib scikit-learn
 
 1. **Configure tickers and parameters**
    Edit the `TICKERS` list and other variables such as `WINDOW_SIZE`, `EPOCHS`, `BATCH_SIZE`, and `FUTURE_STEPS` as needed.
-
+   
 2. **Run the script/notebook**
    The script will:
 
@@ -127,5 +152,5 @@ history_lstm.json                 # Training history (auto-generated)
 
 ---
 
-Note: This document contains the main analyses only. The code also includes: Buy/Hold/Sell decision suggestions based on predictions, LSTM model performance over the 3 years, and analysis of the second principal component (PC2).
+Note: The document contains the main analyses only. The code also includes: Buy/Hold/Sell decision suggestions based on predictions, LSTM model performance over the 3 years, and analysis of the second principal component (PC2).
 
