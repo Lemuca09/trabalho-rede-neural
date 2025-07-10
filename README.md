@@ -47,7 +47,7 @@ Additionally, Principal Component Analysis (PCA) is applied to analyze the varia
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/repo-name.git
+git clone <GIT-REPO-HTTPS>
 cd repo-name
 ```
 
@@ -68,7 +68,7 @@ pip install tensorflow yfinance pandas numpy matplotlib scikit-learn
 4. Run the application:
 
 ```bash
-python your_script_name.py
+python script_name.py
 ```
 
 ---
